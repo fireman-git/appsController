@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/ynavi" />
 
     <ImageButton
-        android:id="@+id/btnAmznMusic"
+        android:id="@+id/btnAmazonMusic"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
