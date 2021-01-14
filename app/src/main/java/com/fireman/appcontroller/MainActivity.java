@@ -49,6 +49,33 @@ public final class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnAmazonmusic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(connecter.checkConnect()) {
+                    connecter.send("送りたい文字列");
+                }
+            }
+        });
+
+        btnTablog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(connecter.checkConnect()) {
+                    connecter.send("送りたい文字列");
+                }
+            }
+        });
+
+        btnYnavi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(connecter.checkConnect()) {
+                    connecter.send("送りたい文字列");
+                }
+            }
+        });
+
         if(connecter.checkConnect()){
             txtConnectStatus.setText("mBTSocket == null !!");
         }
